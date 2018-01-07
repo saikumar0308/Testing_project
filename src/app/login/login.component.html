@@ -1,0 +1,37 @@
+<header>
+   
+    <nav class="navbar navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+           
+            <a class="navbar-brand" [routerLink]="['home']"><img alt="Brand" src="../assets/images/header-logo.jpg"></a>
+          </div>
+         
+        </div>
+      </nav>
+</header>
+
+<div class="container main_container">    
+    <div class="row full_height">
+        <div class="col-sm-6  col-xs-12 no-float left_sec">
+            <div class="row">
+            <!-- <h4>GitHub</h4> -->
+            <div class="col-md-6  col-xs-12 col-md-offset-3">
+            <img src="../assets/images/GitHub-Logo.png" class="img-responsive" alt="">
+            <h5 class="desc">Built for developers</h5>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-6 col-xs-12 no-float social-buttons">
+                <div class="row">                     
+                    <div class="col-md-6  col-xs-12 col-md-offset-3">
+            <img src="../assets/images/Octocat.png" class="img-circle img-responsive" alt="">
+        <a class="btn btn-block btn-social btn-github" (click)="githubLogin()">
+            <span class="fa fa-github"></span> Sign in with GitHub
+        </a>
+        <p class="terms">By clicking "Sign up for GitHub", you agree to github <a href="https://help.github.com/terms" target="_blank"> terms of service</a> and <a href="https://help.github.com/privacy"> privacy policy</a>.</p>
+        </div>
+        </div>
+    </div>
+</div>
+    </div>

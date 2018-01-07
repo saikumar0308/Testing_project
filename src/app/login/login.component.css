@@ -1,0 +1,55 @@
+.desc{
+  font-size: 28px;
+  margin-top: 20px
+}
+
+.btn-github {
+  color: #fff;
+  background-color: #444;
+  border-color: rgba(0,0,0,0.2);
+  padding: 15px;
+  letter-spacing: 1px;
+}
+.btn-social {
+  position: relative;
+  padding-left: 65px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 20px;
+  font-size: 21px;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.social-buttons{
+  top:40px
+}
+.social-buttons img{
+  width: 350px;
+  margin: 0 auto
+}
+.btn-social>:first-child {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 0;
+  width: 54px;
+  line-height: 42px;
+  font-size: 2em;
+  text-align: center;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+.terms{
+  margin-top: 5px;
+  text-align: center;
+  letter-spacing: 1px
+}
+@media only screen and (max-width: 500px) {
+.full_height .no-float{
+  display: block
+}
+
+}

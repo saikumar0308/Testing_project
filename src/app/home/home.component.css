@@ -1,0 +1,79 @@
+.follower_dp{
+  width: 50px
+}
+a {
+  cursor: pointer
+}
+
+.navbar form.navbar-right{
+  margin-top: 13px;
+}
+.navbar-nav>li>a {
+  padding-top: 19px;
+  padding-bottom: 24px;
+}
+input.search {
+  border: none;
+  border-bottom: 1px solid #000000;
+  box-shadow: none
+}
+.jumbotron {
+  padding-bottom: 0
+}
+.btn-primary{
+  border-radius: 30px;;
+  background-color: #9c27b0;
+    color: #FFFFFF;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+    position: relative;   
+    margin: 10px 1px;    
+    text-transform: uppercase;
+    letter-spacing: 0;
+    will-change: box-shadow, transform;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    
+
+}
+
+.btn-primary:hover{
+  box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+
+}
+
+.btn-primary:active:focus{
+  background-color: #9c27b0;
+  color: #FFFFFF;
+  box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+border: none;
+outline: none;
+}
+.btn-primary:focus{
+  outline: none
+}
+.table-hover>tbody>tr:hover {
+  background-color: #e4e2e2;
+}
+
+@media only screen and (max-width: 500px) {
+  .jumbotron{
+    margin-top: 22px;
+  }
+}
